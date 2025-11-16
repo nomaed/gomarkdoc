@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/matryer/is"
-	"github.com/princjef/gomarkdoc/format"
-	"github.com/princjef/gomarkdoc/lang"
+	"github.com/nomaed/gomarkdoc/format"
+	"github.com/nomaed/gomarkdoc/lang"
 )
 
 func TestPlainMarkdown_Bold(t *testing.T) {

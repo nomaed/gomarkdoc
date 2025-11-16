@@ -10,9 +10,9 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/princjef/gomarkdoc"
-	"github.com/princjef/gomarkdoc/lang"
-	"github.com/princjef/gomarkdoc/logger"
+	"github.com/nomaed/gomarkdoc"
+	"github.com/nomaed/gomarkdoc/lang"
+	"github.com/nomaed/gomarkdoc/logger"
 	"github.com/princjef/termdiff"
 	"github.com/sergi/go-diff/diffmatchpatch"
 )
