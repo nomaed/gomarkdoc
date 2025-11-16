@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/matryer/is"
-	"github.com/princjef/gomarkdoc/lang"
-	"github.com/princjef/gomarkdoc/logger"
+	"github.com/nomaed/gomarkdoc/lang"
+	"github.com/nomaed/gomarkdoc/logger"
 )
 
 func TestValue_Level(t *testing.T) {

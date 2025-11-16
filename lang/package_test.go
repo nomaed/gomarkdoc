@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	"github.com/matryer/is"
-	"github.com/princjef/gomarkdoc/lang"
-	"github.com/princjef/gomarkdoc/logger"
+	"github.com/nomaed/gomarkdoc/lang"
+	"github.com/nomaed/gomarkdoc/logger"
 )
 
 func TestPackage_Consts(t *testing.T) {
@@ -56,8 +56,8 @@ func TestPackage_dotImport(t *testing.T) {
 	pkg, err := loadPackage(".")
 	is.NoErr(err)
 
-	is.Equal(pkg.Import(), `import "github.com/princjef/gomarkdoc/testData/lang/function"`)
-	is.Equal(pkg.ImportPath(), `github.com/princjef/gomarkdoc/testData/lang/function`)
+	is.Equal(pkg.Import(), `import "github.com/nomaed/gomarkdoc/testData/lang/function"`)
+	is.Equal(pkg.ImportPath(), `github.com/nomaed/gomarkdoc/testData/lang/function`)
 }
 
 func TestPackage_strings(t *testing.T) {
